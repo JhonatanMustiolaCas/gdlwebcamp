@@ -88,7 +88,7 @@ textarea {
    ========================================================================== */
 
 
-   
+
 html{
 box-sizing: border-box;
 }
@@ -702,11 +702,16 @@ div.price-table p.number
 
 
 /* Map */
-div.map
-{
+div.map {
   height: 420px;
-  background-color: green;
+  /* background-color: green; */
 }
+
+div.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
 
 
 /* Witnesses */
